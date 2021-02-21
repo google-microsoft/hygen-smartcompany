@@ -1,0 +1,24 @@
+{
+  "name": "hygen-smartcompany",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "hygen smartcompany fuzzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/google-microsoft/hygen-smartcompany.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/google-microsoft/hygen-smartcompany/issues"
+  },
+  "homepage": "https://github.com/google-microsoft/hygen-smartcompany#readme",
+  "description": "",
+  "devDependencies": {
+    "hygen-mygenerator": "git+https://github.com/google-microsoft/hygen-mygenerator.git"
+  }
+}
