@@ -4,7 +4,7 @@
   "main": "index.js",
   "dependencies": {},
   "scripts": {
-    "test": "hygen smartcompany fuzzy"
+    "test": "hygen hygen-smartcompany fuzzy memberTags"
   },
   "repository": {
     "type": "git",
