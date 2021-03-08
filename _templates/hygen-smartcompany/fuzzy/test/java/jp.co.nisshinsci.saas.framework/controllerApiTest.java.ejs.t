@@ -12,7 +12,6 @@ import io.restassured.http.Cookie;
 import jp.co.nisshinsci.saas.framework.Routes;
 import jp.co.nisshinsci.saas.framework.constant.Errors;
 import jp.co.nisshinsci.saas.framework.controller.base.BaseApiTest;
-import jp.co.nisshinsci.saas.framework.dto.QuestionnaireEvent;
 import jp.co.nisshinsci.saas.framework.dto.<%= h.inflection.camelize(name, false) %>;
 import org.junit.jupiter.api.Test;
 

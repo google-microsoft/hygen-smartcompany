@@ -6,13 +6,10 @@ package jp.co.nisshinsci.saas.framework.controller;
 import java.util.Map;
 import java.util.Set;
 
-import io.github.thunderz99.cosmos.util.JsonUtil;
 import io.javalin.http.Context;
 import jp.co.nisshinsci.saas.framework.controller.base.BaseAuditableDataCRUDApi;
 import jp.co.nisshinsci.saas.framework.dto.*;
 import jp.co.nisshinsci.saas.framework.dto.permission.feature.Features;
-import jp.co.nisshinsci.saas.framework.service.QuestionFormService;
-import jp.co.nisshinsci.saas.framework.service.QuestionnaireEventService;
 import jp.co.nisshinsci.saas.framework.service.<%= h.inflection.camelize(name, false) %>Service;
 
 /**

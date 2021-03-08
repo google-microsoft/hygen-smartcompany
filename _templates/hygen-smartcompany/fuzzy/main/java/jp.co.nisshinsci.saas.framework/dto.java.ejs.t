@@ -17,9 +17,7 @@ import com.google.common.collect.Lists;
  * @author gong.hanjin
  */
 public class <%= h.inflection.camelize(name, false) %> extends AuditableData implements FuzzySearchable {
-
 <%-dtoCode.dto %>
-
     @Override
     public String generateFieldForSearch(String host) throws Exception {
         StringBuilder sb = new StringBuilder();
