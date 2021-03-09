@@ -21,7 +21,7 @@ import jp.co.nisshinsci.saas.framework.service.base.InitializableService;
 public class <%= h.inflection.camelize(name, false) %>Service extends BaseAuditableDataCRUDService<<%= h.inflection.camelize(name, false) %>> implements FuzzySearchableService {
     public static final <%= h.inflection.camelize(name, false) %>Service singleton = new <%= h.inflection.camelize(name, false) %>Service();
 
-    public <%= h.inflection.camelize(name, false) %>Service() {
+    private <%= h.inflection.camelize(name, false) %>Service() {
         super(<%= h.inflection.camelize(name, false) %>.class);
     }
 
